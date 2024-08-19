@@ -32,16 +32,21 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 50px;
   }
   h2 {
     font-size: 33px;
+    text-align: center;
   }
   .app-description {
     text-align: center;
-    width: 100%;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
 .navigation-links {
@@ -61,6 +66,9 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  color: white;
+}
+.primary-link:hover {
   color: white;
 }
 
